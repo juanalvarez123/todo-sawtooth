@@ -12,8 +12,6 @@ cd ./containers/tpauth
   cp ./.env.docker-compose ./.env
 cd -
 
-
-
 cd ./containers/app/client
   npm install
   rm ./.env

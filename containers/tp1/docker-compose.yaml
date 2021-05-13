@@ -13,4 +13,3 @@ services:
     command: ["node", "./index.js"]
     extra_hosts:
     - "validator1:192.168.99.100"
-
