@@ -13,6 +13,10 @@ docker-compose
 ./down.sh
 ```
 
+## Architecture
+
+![Screenshot](./assets/architecture.png)
+
 ## URLs
 
 ### Server
@@ -28,7 +32,7 @@ App cliente:
 ### Sawtooth API
 
 ```bash
-# Obtener todos los bloques
+# Obtener todos los bloques del blockchain
 GET http://localhost:8008/blocks
 ```
 
@@ -39,7 +43,7 @@ POST http://localhost:8008/batches
 
 ```bash
 # Consultar por el ID/Key del estado la información de un estado
-GET http://localhost:8008/state/{id_unico}
+GET http://localhost:8008/state/{key}
 ```
 
 ### Sawtooth explorer
